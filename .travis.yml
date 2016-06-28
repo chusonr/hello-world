@@ -1,0 +1,9 @@
+# 言語はPython
+language: python
+# Python のバージョンは3.4
+python: ["3.4"]
+#環境整備に使用するコマンドなし－環境整備は行わない
+install:
+# テスト実行用コマンド
+script: "python ./main.py"
+
